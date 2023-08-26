@@ -1,0 +1,223 @@
+body{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.display{
+    margin: 0px auto;
+}
+.firstheader{
+    position: sticky;
+    top:0;
+    background-color: white;
+    display: flex;
+    padding :15px 80px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgrey;
+    z-index: 10;
+}
+
+.secondheader{
+    background-color: white;
+    position: sticky;
+    top:80px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom :15px;
+    padding-top: 30px;
+    display: flex;
+    gap: 33px;
+    justify-content: space-between;
+    z-index: 9;
+}
+
+.logo{
+    width: 110px;
+    height: 32px;
+}
+
+.nav-center{
+    margin-left: 175px;
+    display: flex;
+    gap: 12px;
+    border: 1px solid lightgray;
+    border-radius: 25px;
+    align-items: center;
+    padding: 12px;
+    width: 335px;
+    justify-content: space-between;
+    padding-left: 25px;
+    
+}
+.line{
+    border: 0.05px solid lightgrey;
+    height: 25px;
+}
+.search{
+    width: 15px;
+    height: 15px;
+    padding: 7px;
+    color: white;
+
+    background-color: rgb(225,56,92);
+    border-radius: 50%;
+}
+.number{
+    color: grey;
+}
+.left-corner{
+    display: flex;
+    gap: 12px;
+}
+.join{
+    border:0;
+    background-color: white;
+}
+.world{
+    border: 0;
+    background-color: white;
+}
+.user{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border: 1px solid lightgrey;
+    border-radius: 25px;
+    padding: 8px;
+
+}
+.more{
+    height: 15px;
+}
+.type-icon{
+    width: 24px;
+    height: 24px;
+}
+.type-name{
+    font-size: 10px;
+    color: grey;
+}
+.type{
+    display: grid;
+    justify-items: center;
+}
+.filter-detials{
+    display: flex;
+    gap:25px;
+}
+.arrow{
+    height: 42px;
+    margin-top: 10px;
+}
+
+.filter-knob{
+    height: 42px;
+    display: flex;
+    border: 1px solid lightgrey;
+    align-items: center;
+    gap: 5px;
+    padding : 1px 13px;
+    border-radius: 15px;
+}
+.filter-icon{
+    height: 14px;
+}
+.filter-title{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+
+.taxes{
+    border: 1px solid lightgrey ;
+    height: 42px;
+    padding: 0px 12px;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    gap: 8px
+}
+.tax-desc{
+    font-size: 10px;
+    font-weight: 600;
+}
+.tax-slider{
+    height: 42px;
+}
+
+.arrow{
+    height: 13px;
+    padding: 5px;
+    border: 1px solid lightgrey;
+    border-radius: 50%;
+}
+.parent-img{
+    width: 310px;
+    position: relative;
+}
+.child-remarks{
+    position: absolute;
+    top:0;
+    right:0;
+    padding-right: 22px ;
+    padding-top: 22px
+}
+.hotel-img{
+    width: 300px;
+    height: 280px;
+    border-radius: 14px;
+    margin-bottom: 0px;
+}
+.heart{
+    height: 25px;
+    stroke: white;
+    stroke-width: 2px;
+}
+.locaiton{
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 8px;
+    margin-bottom: 2px;
+}
+.distance{
+    color: grey;
+    margin: 0px;
+}
+.duration{
+    color: grey;
+    margin: 0;
+}
+.price{
+    margin-top: 10px;
+}
+
+.hotel-collection{
+    display: flex;
+    flex-wrap: wrap;
+    gap :2px;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.show_map{
+    display: flex;
+    gap: 8px;
+   background-color: black;
+    color: white;
+    border: 0;
+    border-radius: 25px;
+    justify-content: center;
+    width: 132px;
+    padding: 12px;
+    position: fixed;
+    bottom: 38px;
+    left:45%
+}
+
+.map_img{
+    height: 22px;
+    fill: white
+}
